@@ -1,0 +1,48 @@
+.title {
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+
+}
+.div1 {
+	background-color: #787271;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	display: inline-block;
+	position: absolute;
+	
+}
+.head-pages {
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border: 1px #787271;
+	box-sizing: border-box;
+	background-color:#787271; 
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 3px;
+	font-size: 120%;
+
+}
+h1 {
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 2px;
+	
+}
+body {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+h4 {
+	color: #ffffff;
+	line-height: 8px
+	position: relative;
+	padding: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 120%;
