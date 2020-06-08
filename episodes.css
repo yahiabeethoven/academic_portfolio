@@ -27,7 +27,7 @@ a:hover {
 	background-color: #0009BD;
 	text-align: center;
 	width: 100%;
-	height: 12.11%;
+	height: 11.11%;
 	display: inline-block;
 	overflow: hidden;
 }
@@ -39,7 +39,7 @@ a:hover {
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	padding: 0.73% 1.1%;
+	padding: 0.73% 1.3%;
 	background-color:#0009BD; 
 	font-family: 'Bebas Neue', cursive;
 	letter-spacing: 3px;
@@ -54,99 +54,85 @@ h1 {
 	text-align: center;
 	letter-spacing: 2px;
 }
-
-/*the secondary title of the founders of the website*/
-h2 {
-	color: #ffffff;
-	text-align: center;
+/*division for video title and video which is unique for the gradient in the background*/
+.upper {
+	display: block;
+	height: 100%;
+	background-image: linear-gradient(white, #89CFF0);
+	width:100%;
 	letter-spacing: 1px;
-	font-family: 'Montserrat', sans-serif;
-	}
-
-/*class for the paragraph text of introducing founders*/
-h4 {
-	color: #ffffff;
-	line-height: 8px
-	padding: 80px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 120%;
-	margin-right: 7%;
-	margin-left: 7%;
-	text-align: justify;
+	margin-bottom: 1.8%;
+	margin-top: 1.8%
 }
 
-/*most important division which contains the names, images, and captions*/
-.names {
+/*division for the dimensions of the video*/
+.latest-video {
 	display:block;
-	width:100%;
-	padding-bottom: 7%;
-}
-/*format of the images class to make them equally centered from one another*/
-.imgs {
-	margin-left: 2.6%;
-	margin-right: 2.5%;
-	border: 0px solid black;
-	border-radius: 15%;
+	width: 48%;
+	height: 100%;
+	padding-bottom: 2%
 }
 
-/*bigger division containing repeated classes for each picture*/
-.theme-imgs {
+/*class for the decoration of the video itself*/
+.vid {
+	border: 10px solid black;
+	box-sizing: border-box;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+
+/*division for the title of the latest video*/
+/*.intros {
+	display:block;
+	color: black;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	font-size: 1.5rem;
+	padding-top: 2%;
+	font-family: 'Montserrat', sans-serif;
+}*/
+
+/*big division holding other divisions for each episode's title*/
+.episode-heads {
 	display: inline-flex;
 	width:100%;
 }
 
-/*container of the names */
-.name-heads {
-	display: inline-flex;
-	width:100%;
-}
-
-/*style of the texts for h3 and h5*/
-.h3-themes {
+/*style of the texts for episode titles*/
+.h3-episodes {
 	width:100%;
 	display:inline-flex;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
-/*smallest unit of classes which contains style for each individual word*/
-.header-themes {
+/*class for the individual title words*/
+.header-episodes {
 	width: 100%;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
+	margin-left: 4%;
+	margin-right: 5%;
 	text-align: center;
-	color: white;
-	background-color: #0009BD;
+	color: black;
 	font-family: 'Bebas Neue', cursive;
 	letter-spacing: 2px;
-	font-size: 130%;
+	font-size: 150%;
 	overflow: hidden;
-
 }
 
-/*similar class to the above but with different dimensions and colors for the captions of the images*/
-.header-themes2 {
-	width: 100%;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	text-align: center;
-	color: white;
-	padding: 0.73% 1.3%;
-	font-family: 'Roboto', sans-serif;
-	overflow: hidden;
-	font-size: 150%;	
-}
 
 /*footer division that wraps up the webpage*/
 .footer {
 	background-color: #0009BD;
 	text-align: center;
 	width: 100%;
-	height: 35%;
+	height: 20%;
 	margin-bottom: 0px;
 	display: inline-block;
 	overflow: hidden;
 }
+
 /*details about the h5 font inside footer*/
 .footer h5 {
 	color: black;
@@ -155,6 +141,7 @@ h4 {
  	font-family: 'Montserrat', sans-serif;
  	font-weight: bolder;
 }
+
 /*details about h6 font inside footer*/
 h6 {
 	color: #f2f2f2;

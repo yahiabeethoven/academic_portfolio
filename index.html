@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html>
+<!-- linking html file to corresponding css styling file -->
 <link rel="stylesheet" href="style.css"/>
 <head>
-	
+<!-- /*title for the webpage on the browser*/ -->
 	<title class="title"> SCIENCE REVIEW </title>
 
 </head>
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
 <body>
+<!-- embedded link of the Google fonts I used throughout the webpage -->
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
- <div><h1>THE SCIENCE REVIEW</h1>
-		<div class="div1">
-			<h3>
-			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/index.html">  EPISODES</a> 
 
-			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/index.html">  MAIN</a>
+<!-- /*the upmost title of the page*/ -->
+<div><h1>THE SCIENCE REVIEW</h1>
+<!-- /*the uppermost division in which the navigation is present*/ -->
+	<div class="div1">
+<!-- /*the navigation buttons which redirect to three different pages*/ -->
+		<h3><a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/episodes.html">  EPISODES</a> 
 
-			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/about.html">  ABOUT</a>
+		<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/index.html">  MAIN</a>
 
-			</h3> 
-		</div>
+		<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/about.html">  ABOUT</a></h3> 
 	</div>
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+</div>
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- /*division for video title and video which is unique for the gradient in the background*/ -->
 <div class="upper">
+<!-- /*division for the title of the latest video*/ -->
 	<h3 class="intros">Latest Video!</h3>
+<!-- /*division for the dimensions of the video*/ -->
 	<div class="latest-video">
+<!-- /*class for the decoration of the video itself*/ -->
 		<video class="vid" width="100%" height="41%" controls>
-			<source src="movie.mp4" type="video/mp4">
+			<source src="movie2.mp4" type="video/mp4">
 		</video>
 	</div>
 </div>
 
+<!-- /*biggest division containing multiple divisions for the theme names, pictures, and titles*/ -->
 <div class="themes">
+<!-- /*division for the title at the top of the theme division*/ -->
 	<div class="intro-themes">
 		<h3>Themes</h3>
 	</div>
+<!-- /*big division holding other divisions for each themes' title*/ -->
 	<div class="theme-heads">
+<!-- /*style of the texts for h3 and h5*/ -->
 			<h3 class="h3-themes">
+<!-- /*class for the individual title words*/ -->
 			<p class="header-themes"> Heating </p> 
 
 			<p class="header-themes"> Liquids </p>
@@ -45,13 +57,17 @@
 
 			</h3> 
 		</div>
+<!-- /*outer division for the image class*/ -->
 	<div class="theme-imgs">
-    	<img class="imgs" id="fire" src="fire2.png" width="14.64%" height="20.04%">
-    	<img class="imgs" id="water" src="water2.png" width="14.64%" height="20.04%">
-    	<img class="imgs" id="electricity" src="electricity2.png" width="17%" height="17%">
+<!-- /*class for the specific images for each theme*/ -->
+    	<img class="imgs" id="fire" src="fire2.png" width="14.64%" height="20.04%" alt="Heat">
+    	<img class="imgs" id="water" src="water2.png" width="14.64%" height="20.04%" alt="Water">
+    	<img class="imgs" id="electricity" src="electricity2.png" width="13%" height="15%" alt="Spark">
     </div>
+<!-- divisions to properly hold the components making the interactive division of the captions of the theme images -->
     <div class="icon-descriptions">
 	    <h5 class="h3-themes">
+<!-- /*interactive text which appears using js when mouse hovers over image of each theme*/ -->
 		    <p class="header-themes2" id="ghost-text1">
 		    		
 		    </p>
@@ -68,38 +84,43 @@
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
+<!-- /*division for the barrier title which shows the start of the slideshow section*/ -->
 	<div class="intro-themes2">
 		<h3>Natural Beauties</h3>
 	</div>
 <!-- this part has been copied from bootstrap to make a slideshow of pictures from nature. Here is the URL of the website: https://www.w3schools.com/howto/howto_js_slideshow.asp-->
   <!-- Full-width images with number and caption text -->
+<!-- image1 -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 4</div>
-    <img src="slide1.jpg" style="width:100%">
+    <img src="slide1.jpg" style="width:100%" alt="Slide 1">
 	<div class="text">The visual contrast between the icy mountains, the tall trees, the dark greenery, and the pure lake in a cool environment is definitely one of the best sights.</div>
 	<!-- https://www.youtube.com/watch?v=zNduB6NTah8 -->
   </div>
-
+<!-- image2 -->
   <div class="mySlides fade">
     <div class="numbertext">2 / 4</div>
-    <img src="slide2.jpg" style="width:100%">
+    <img src="slide2.jpg" style="width:100%" alt="Slide 2">
     <div class="text">The sight of silhoettes of family and friends having fun by a lake at dusk puts anyone at ease.</div>
     <!-- https://twitter.com/Bty_Landscapes/status/936316476667113472/photo/1 -->
   </div>
-
+<!-- image3 -->
   <div class="mySlides fade">
     <div class="numbertext">3 / 4</div>
-    <img src="slide3.jpg" style="width:100%">
+    <img src="slide3.jpg" style="width:100%" alt="Slide 3">
     <div class="text">The overwhelming purple flowers submerged into the endless greenery brightens the scenery along with the tall trees and icy mountains in the background.</div>
     <!-- http://protravelplanner.net/tips-for-traveling-to-natural-lands/ -->
   </div>
+
+<!-- image4   -->
   <div class="mySlides fade">
     <div class="numbertext">4 / 4</div>
-    <img src="slide4.jpg" style="width:100%">
+    <img src="slide4.jpg" style="width:100%" alt="Slide 4">
     <div class="text">Epic sight of sandy houses and magnificant desertous scenery in the Sahara in Morocco.</div>
     <!-- https://epictomato.com/epic-weekends-morocco-desert/ -->
   </div>
-  <!-- Next and previous buttons -->
+
+<!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
@@ -115,20 +136,22 @@
 
 <!-- this is the end of the slideshow code -->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- /*footer division that wraps up the webpage*/ -->
 <div class="footer"> 
 	<h5>
-		Are you interested in the content of The Science Review?
+		What are you waiting for?
 	</h5>
 	<h6> 
-		Then subscribe to our website channel through YouTube and reach out to us if you have any concerns!
+		Contact us!
 	</h6>
 	<h6>
-		(+971) 501502693 - thesciencereview@gmail.com
+		(+971) 501502693 | thesciencereview@gmail.com
 	</h6>
 	<h6>
 		
 	</h6>
 </div>
+<!-- linking the html file to the corresponding javascript that makes it more interactive -->
 <script src="script.js"></script>
 </body>
 </html>

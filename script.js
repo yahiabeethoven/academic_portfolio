@@ -1,16 +1,17 @@
 console.log("Yo, how's life?");
 
 // fire.style.color = "orange";
-
+// interactive part of the themes where the caption of the fire icon appears as the mouse hovers over the image and disappears as the mouse moves away from the image
 let iconTheme1 = document.getElementById("fire");
 
 iconTheme1.addEventListener('mouseenter', () => {
 	document.getElementById("ghost-text1").innerText = " Episodes which revolve around heating up objects in the lab or burning them using our Bunsen burner to yield exciting results are very intense! These experiments need to be executed with extreme caution as they may incur damages. "
-	// document.getElementById("fire").border ="solid white"
 })
 iconTheme1.addEventListener('mouseleave', () => {
 	document.getElementById("ghost-text1").innerText = ""
 })
+
+// interactive part of the themes where the caption of the water icon appears as the mouse hovers over the image and disappears as the mouse moves away from the image
 
 let iconTheme2 = document.getElementById("water");
 
@@ -21,6 +22,9 @@ iconTheme2.addEventListener('mouseenter', () => {
 iconTheme2.addEventListener('mouseleave', () => {
 	document.getElementById("ghost-text2").innerText = ""
 })
+
+
+// interactive part of the themes where the caption of the electricity icon appears as the mouse hovers over the image and disappears as the mouse moves away from the image
 
 let iconTheme3 = document.getElementById("electricity");
 
@@ -51,6 +55,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+// function used to show the actual slides(images) of the slideshow
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -66,3 +71,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+// end of carousel code
