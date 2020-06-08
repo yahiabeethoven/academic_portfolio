@@ -41,7 +41,8 @@ a:hover {
 	color: white;
 	padding: 0.73% 1.3%;
 	background-color:#0009BD; 
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	letter-spacing: 3px;
 	font-size: 150%;
 	overflow: hidden;
@@ -75,8 +76,8 @@ h1 {
 
 /*class for the decoration of the video itself*/
 .vid {
-/* 	border: 10px solid black;
-	box-sizing: border-box; */
+/*	border: 10px solid black;
+	box-sizing: border-box;*/
 	margin-top: 3%;
 	margin-left: 2%;
 }
@@ -115,7 +116,7 @@ h1 {
 	margin-right: 5%;
 	text-align: center;
 	color: black;
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
 	font-size: 150%;
 	overflow: hidden;
@@ -127,7 +128,7 @@ h1 {
 	background-color: #0009BD;
 	text-align: center;
 	width: 100%;
-	height: 221px;
+	height: 20%;
 	margin-bottom: 0px;
 	display: inline-block;
 	overflow: hidden;
