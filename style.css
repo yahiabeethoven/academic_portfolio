@@ -283,7 +283,7 @@ h1 {
 	background-color: #0009BD;
 	text-align: center;
 	width: 100%;
-	height: 20%;
+	height: 221px;
 	margin-bottom: 0px;
 	display: inline-block;
 	overflow: hidden;
@@ -306,5 +306,18 @@ h6 {
  	font-family: 'Montserrat', sans-serif;
  	font-size: 1.1rem;
 }
-
+/*.reference {
+	display: inline-flex;
+	width: 100%;
+	/*overflow: hidden;*/
+/*}*/*/
+/*
+.reference-icons {
+	margin-left: 10%;
+	margin-right: 10.5%;
+	text-decoration: none;
+	padding: 0.73% 1.3%;*/
+	/*background-color: white;*/
+/*	color: white;*/ 
+/*	border-radius: 2%;*/
 }
