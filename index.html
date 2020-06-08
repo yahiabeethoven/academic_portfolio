@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="style.css"/>
 <head>
@@ -5,45 +6,129 @@
 	<title class="title"> SCIENCE REVIEW </title>
 
 </head>
-
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
 <body>
-<div> <h1>THE SCIENCE REVIEW</h1>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+ <div><h1>THE SCIENCE REVIEW</h1>
 		<div class="div1">
-		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 			<h3>
-			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/index.html"> EPISODES </a> 
+			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/index.html">  EPISODES</a> 
 
-			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/index.html"> FUN FACTS </a>
+			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/index.html">  MAIN</a>
 
-			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/about.html"> ABOUT </a>
+			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/about.html">  ABOUT</a>
 
-			<a class="head-pages" href="file:///C:/Users/Yahia%20Beethoven/OneDrive/Desktop/comm/index.html"> THEMES </a>
 			</h3> 
 		</div>
 	</div>
-	
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
 <div class="upper">
-	
-	<h3 class="latest">Latest Video!</h3>
-	<!-- copied from youtube -->
-	<iframe class="latest-video" width="41%" height="42%" src="https://www.youtube.com/embed/FG9M0aEpJGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-
-	<ul class="themes">
-    <li class="theme-imgs"><img src="fire.png"></li>
-    <li class="theme-imgs"><img src="water.png"></li>
-    <li class="theme-imgs"><img src="electricity.png"></li>
-
-</ul>
+	<h3 class="intros">Latest Video!</h3>
+	<div class="latest-video">
+		<video class="vid" width="100%" height="41%" controls>
+			<source src="movie.mp4" type="video/mp4">
+		</video>
+	</div>
 </div>
 
-<video1> </video1>
-<video1> </video1>
-<video1> </video1>
-<video1> </video1>
-<footer> </footer>
+<div class="themes">
+	<div class="intro-themes">
+		<h3>Themes</h3>
+	</div>
+	<div class="theme-heads">
+			<h3 class="h3-themes">
+			<p class="header-themes"> Heating </p> 
+
+			<p class="header-themes"> Liquids </p>
+
+			<p class="header-themes"> Electricity </p>
+
+			</h3> 
+		</div>
+	<div class="theme-imgs">
+    	<img class="imgs" id="fire" src="fire2.png" width="14.64%" height="20.04%">
+    	<img class="imgs" id="water" src="water2.png" width="14.64%" height="20.04%">
+    	<img class="imgs" id="electricity" src="electricity2.png" width="17%" height="17%">
+    </div>
+    <div class="icon-descriptions">
+	    <h5 class="h3-themes">
+		    <p class="header-themes2" id="ghost-text1">
+		    		
+		    </p>
+			<p class="header-themes2" id="ghost-text2">
+			
+			</p>
+			<p class="header-themes2" id="ghost-text3">
+		    		
+		    </p>
+		</h5>
+	</div>
 </div>
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+	<div class="intro-themes2">
+		<h3>Natural Beauties</h3>
+	</div>
+<!-- this part has been copied from bootstrap to make a slideshow of pictures from nature. Here is the URL of the website: https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="slide1.jpg" style="width:100%">
+	<div class="text">The visual contrast between the icy mountains, the tall trees, the dark greenery, and the pure lake in a cool environment is definitely one of the best sights.</div>
+	<!-- https://www.youtube.com/watch?v=zNduB6NTah8 -->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="slide2.jpg" style="width:100%">
+    <div class="text">The sight of silhoettes of family and friends having fun by a lake at dusk puts anyone at ease.</div>
+    <!-- https://twitter.com/Bty_Landscapes/status/936316476667113472/photo/1 -->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="slide3.jpg" style="width:100%">
+    <div class="text">The overwhelming purple flowers submerged into the endless greenery brightens the scenery along with the tall trees and icy mountains in the background.</div>
+    <!-- http://protravelplanner.net/tips-for-traveling-to-natural-lands/ -->
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="slide4.jpg" style="width:100%">
+    <div class="text">Epic sight of sandy houses and magnificant desertous scenery in the Sahara in Morocco.</div>
+    <!-- https://epictomato.com/epic-weekends-morocco-desert/ -->
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<!-- this is the end of the slideshow code -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<div class="footer"> 
+	<h5>
+		Are you interested in the content of The Science Review?
+	</h5>
+	<h6> 
+		Then subscribe to our website channel through YouTube and reach out to us if you have any concerns!
+	</h6>
+	<h6>
+		(+971) 501502693 - thesciencereview@gmail.com
+	</h6>
+	<h6>
+		
+	</h6>
+</div>
+<script src="script.js"></script>
 </body>
-
-
-
 </html>
