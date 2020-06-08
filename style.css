@@ -1,69 +1,300 @@
-.title {
-	position: absolute;
-	padding: 10px;
-	text-align: center;
 
-}
-.div1 {
-	background-color: #787271;
+.title {
+	/*position: absolute;*/
+	padding: 0.73% 1.3%;
 	text-align: center;
-	width: 100%;
-	height: 70px;
-	display: inline-block;
-	position: absolute;
-	
-}
-.head-pages {
-	margin-left: 8%;
-	margin-right: 8%;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	padding: 10px;
-	border: 1px #787271;
-	box-sizing: border-box;
-	background-color:#787271; 
-	font-family: 'Bebas Neue', cursive;
-	letter-spacing: 3px;
-	font-size: 120%;
 
 }
 body {
 	background-color: black;
-	width: 100%;
-	height: 100%;
 }
+a:hover {
+  background-color: white;
+  color: black;
+/*  border-radius: 7%;*/
+}
+
+.theme-imgs img:hover {
+  background-color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.div1 {
+	background-color: #0009BD;
+	text-align: center;
+	width: 100%;
+	height: 9.11%;
+	display: inline-block;
+	overflow: hidden;
+	/*position: absolute;*/
+	
+}
+.head-pages {
+	margin-left: 10%;
+	margin-right: 10.5%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 0.73% 1.3%;
+	background-color:#0009BD; 
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 3px;
+	font-size: 150%;
+	overflow: hidden;
+	border-radius: 2%;
+
+}
+
 h1 {
 	color: #ffffff;
 	text-align: center;
 	letter-spacing: 2px;
 	
 }
-	
-.upper {
-	display: inline-block;
+/*.intro {
 	width: 100%;
-	height: 60%;
+	height: 19%;
+}*/
+
+.intros {
+	display:block;
+	color: black;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	/*margin-top: 5%;*/
+	padding-top: 2%;
+	font-family: 'Montserrat', sans-serif;
+
 }
+.upper {
+	display: block;
+/*	width: 100%;*/
+	height: 100%;
+	background-image: linear-gradient(white, #89CFF0);
+	width:100%;
+	letter-spacing: 1px;
+}
+/*.upper img {
+	width: 100%;
+}*/
 .latest-video {
 	display:block;
+	width: 41%;
+	height: 100%;
+	margin: auto;
+	padding-bottom: 2%
+	
 }
-
-.latest {
-	color: #ffffff;
-	position: relative;
-	top: 5%;
-	left: 1%;
-	padding: 1%;
-	font-size: 200%
-
+.vid {
+	border: 10px solid black;
+	box-sizing: border-box;
 }
-.themes {
-	position:fixed;
-	top:13%;
-	left: 50%;
-}
-/*.theme-imgs {
+.intro-themes {
 	display:block;
-	height: 33%;
-}*/
+	background-color: #0009BD;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	/*margin-top: 5%;*/
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.intro-themes2 {
+	display:block;
+	color: white;
+	background-color: #0009BD;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.imgs {
+	margin-left: 9.3%;
+	margin-right: 9.3%;
+	border: 3px solid black;
+}
+
+.imgs img:hover {
+	border: 3px solid white;
+	background-color: white;
+}
+
+.themes {
+	display:block;
+	width:100%;
+	padding-bottom: 7%;
+}
+
+.theme-imgs {
+	display: inline-flex;
+	width:100%;
+}
+.theme-heads {
+	display: inline-flex;
+	width:100%;
+}
+
+.h3-themes {
+	width:100%;
+	display:inline-flex;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.header-themes {
+	width: 100%;
+	margin-left: 4%;
+	margin-right: 5%;
+	text-align: center;
+	color: white;
+	/*padding: 0.73% 1.3%;*/
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+	font-size: 150%;
+	overflow: hidden;
+
+}
+
+.header-themes2 {
+	width: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+	color: white;
+
+	/*padding: 0.73% 1.3%;*/
+	font-family: 'Roboto', sans-serif;
+/*	letter-spacing: 1px;*/
+	overflow: hidden;
+	font-size: 150%;
+	text-align: justify;	
+}
+
+/*<!-- this part has been copied from bootstrap to make a slideshow of picturesfrom nayure. Here is the URL of the website: https://www.w3schools.com/howto/howto_js_slideshow.asp-->*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -2.86%;
+  padding: 1.17% 2.083%;
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.6s ease;
+  border-radius: 0 0.22% 0.39% 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0.22% 0 0 0.39%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1rem;
+  /*padding: 8px 12px;*/
+  /*position: absolute;*/
+/*  bottom: 1.04%;*/
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1rem;
+  padding: 0.59% 1.56%;
+  /*position: absolute;*/
+  margin-top: 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom: 2%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*this is the end of the slideshow part*/
+
+.footer {
+	background-color: #0009BD;
+	text-align: center;
+	width: 100%;
+	height: 20%;
+	margin-bottom: 0px;
+	display: inline-block;
+	overflow: hidden;
+}
+.footer h5 {
+	color: #f2f2f2;
+ 	font-size: 0.9rem;
+ 	text-align: center;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: bolder;
+}
+h6 {
+	color: #f2f2f2;
+ 	font-size: 0.6rem;
+ 	text-align: center;
+ 	font-family: 'Montserrat', sans-serif;
+}
