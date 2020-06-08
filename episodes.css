@@ -75,8 +75,8 @@ h1 {
 
 /*class for the decoration of the video itself*/
 .vid {
-	border: 10px solid black;
-	box-sizing: border-box;
+/* 	border: 10px solid black;
+	box-sizing: border-box; */
 	margin-top: 3%;
 	margin-left: 2%;
 }
