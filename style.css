@@ -27,7 +27,7 @@ a:hover {
 	background-color: #0009BD;
 	text-align: center;
 	width: 100%;
-	height: 12.11%;
+	height: 75px;
 	display: inline-block;
 	overflow: hidden;
 }
@@ -41,7 +41,7 @@ a:hover {
 	color: white;
 	padding: 0.73% 1.3%;
 	background-color:#0009BD; 
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 	font-size: 170%;
 	overflow: hidden;
@@ -130,7 +130,7 @@ h1 {
 	margin-right: 5%;
 	text-align: center;
 	color: white;
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
 	font-size: 150%;
 	overflow: hidden;
@@ -283,7 +283,7 @@ h1 {
 	background-color: #0009BD;
 	text-align: center;
 	width: 100%;
-	height: 221px;
+	height: 20%;
 	margin-bottom: 0px;
 	display: inline-block;
 	overflow: hidden;
