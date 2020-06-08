@@ -91,6 +91,17 @@ h1 {
 	box-sizing: border-box;
 }
 
+.background {
+	display:block;
+	color: black;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 2%;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 2%
+}
+
 /*biggest division containing multiple divisions for the theme names, pictures, and titles*/
 .themes {
 	display:block;
