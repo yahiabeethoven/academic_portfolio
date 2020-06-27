@@ -644,58 +644,135 @@ p {
     @media screen and (max-width: 650px) {
         nav a {
             padding: 3%;
+            border-right: none;
         }
 
         h1 {
             width: 90%;
             font-size: 20px;
+            margin-bottom: 5px;
 /*            line-height: 0.6em;*/
         }
 
-        .location-image {
-		background-size: contain;
-		max-width: 375px;
-		height: 230px;
-	}
+        .interests-container {
+        	height: 600px;
+        }
 
-	.flip-card {
-		width: 100px;
-		height: 60px;
-	}
+        .interests-links {
+        	margin-left: 5px;
+        	margin-right: 5px;
+        }
+  	
+		.location-image {
+			background-size: contain;
+			background-size: 100% 170px;
+			max-width: 414px;
+			height: 170px;
+		}
+		.flip-card {
+			width: 120px;
+			height: 70px;
+		}
+		.dimensions-card {
+			width: 120px;		
+			height: 70px;
+		}
 
-	.dimensions-card {
-		width: 100px;
-		height: 60px;
-	}
-
-	.dimensions-card2 {
-		width: 30px;
-		height:30px;
-	}
-	.flip-card-inner {
-  		width: 100px;
-  		height: 60px;
-  	}
-
-  		.title {
-  			height: 150px;
+		.dimensions-card2 {
+			width: 30px;
+			height:30px;
+		}
+		.flip-card-inner {
+			width: 120px;
+			height: 70px;
+		}	
+		.title {
+  			height: 70px;
   		}
 
   		.title p{
-  			font-size: 30px;
+  			font-size: 25px;
   		}
 
         p {
             padding-left: 7%;
             padding-right: 7%;
+            font-size: 75%;
         }
-    
+    	#ghost-text1 {
+    		width: 65%;
+    		text-align: center;
+    	}
+    	#ghost-text2 {
+    		width: 65%;
+    		text-align: center;
+    	}
+
+    	#ghost-text3 {
+    		width: 65%;
+    		text-align: center;
+    	}
+    	#ghost-text4 {
+    		width: 65%;
+    		text-align: center;
+    	}
+
         #projects {
         	margin-top: 10%;
         }
 
         .projects-container {
-        	height:1800px;
+        	height:1500px;
+        }
+
+        .projects-images {
+        	height: 260px;
+        }
+        #science1 {
+        	background-size: cover;
+        }
+
+        #sound1 {
+        	background-size: cover;
+        }
+
+        #video1 {
+        	background-size: cover;
+        }
+
+        #comic1 {
+        	background-size: cover;
+        }
+        #science {
+        	margin: 5px;
+        }
+
+        #sound {
+        	margin: 5px;
+        }
+
+        #video {
+        	margin: 5px;
+        }
+
+        #comic {
+        	margin: 5px;
+        }
+
+        #science:hover {
+        	border-radius: 7px;
+        }
+
+        #sound:hover {
+        	border-radius: 7px;
+        }
+
+        #video:hover {
+        	border-radius: 7px;
+        }
+
+        #comic:hover {
+        	border-radius: 7px;
         }
         .navigation {
   			width: 100%;
@@ -722,8 +799,42 @@ p {
 			width:100%;
 		}
 
+		#sports1 {
+			height: 50px;
+		}
+
+		#sports {
+			height: 50px;
+			width: 90%;
+		}
+
+		#highschool1 {
+			height: 70px;
+		}
+
+		#highschool {
+			height: 70px;
+			width: 90%;
+		}
+
+		#food1 {
+			height: 90px;
+		}
+
+		#food {
+			height: 90px;
+			width: 90%;
+		}
+
+		#program1 {
+			height: 100px;
+		}
+
+		#program {
+			height: 100px;
+			width: 90%;
+		}
 		.footer {
-			margin-top: 25%;
 			margin-left: 0;
 			margin-right: 0;
 			width:100%;
@@ -737,4 +848,9 @@ p {
 		.fa {
         	margin: 5px 2px;
 		}
+
+		.interests-images p {
+			font-size: 15px;
+		}
+
     }
