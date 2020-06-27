@@ -648,12 +648,14 @@ p {
 
         h1 {
             width: 90%;
-            font-size: 300%;
+            font-size: 20px;
+/*            line-height: 0.6em;*/
         }
 
         .location-image {
 		background-size: contain;
 		max-width: 375px;
+		height: 230px;
 	}
 
 	.flip-card {
@@ -675,21 +677,26 @@ p {
   		height: 60px;
   	}
 
-        .title p {
-  		font-size: 0.1em;
+  		.title {
+  			height: 150px;
   		}
 
+  		.title p{
+  			font-size: 30px;
+  		}
 
         p {
             padding-left: 7%;
             padding-right: 7%;
         }
     
-        .title {
-            font-size: 60px;
-            line-height: 70px;
+        #projects {
+        	margin-top: 10%;
         }
 
+        .projects-container {
+        	height:1800px;
+        }
         .navigation {
   			width: 100%;
   			position: absolute;
@@ -725,7 +732,6 @@ p {
 		.about {
 			padding: 0;
 			margin-bottom: 0;
-			top: 20%;
 		}
 
 		.fa {
