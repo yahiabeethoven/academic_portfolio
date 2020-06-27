@@ -96,6 +96,8 @@ nav a:hover {
 
 }
 
+
+
 .location-image {
 	/*https://www.freepik.com/premium-vector/navigation-map-street-3d-location-pin-locator-pins-pointer-navigator-maps-locations-marker_6541569.htm*/
     background-image: url('resources/location4.jpg');
@@ -120,6 +122,16 @@ nav a:hover {
   transform: rotate(10deg);
   margin-top: 7%;
   margin-right: 3%;
+}
+
+.dimensions-card {
+	width:400px; 
+	height:250px;
+}
+
+.dimensions-card2 {
+	width:130px; 
+	height: 130px;
 }
 
 /* This container is needed to position the front and back side */
@@ -638,6 +650,35 @@ p {
             width: 90%;
             font-size: 300%;
         }
+
+        .location-image {
+		background-size: contain;
+		max-width: 375px;
+	}
+
+	.flip-card {
+		width: 100px;
+		height: 60px;
+	}
+
+	.dimensions-card {
+		width: 100px;
+		height: 60px;
+	}
+
+	.dimensions-card2 {
+		width: 30px;
+		height:30px;
+	}
+	.flip-card-inner {
+  		width: 100px;
+  		height: 60px;
+  	}
+
+        .title p {
+  		font-size: 0.1em;
+  		}
+
 
         p {
             padding-left: 7%;
