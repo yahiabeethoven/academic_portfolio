@@ -35,9 +35,6 @@ html, body {
 /*    box-shadow: inset 0px 0px 100vw black;*/
 }
 
-.content {   
-/*    padding-bottom: 75px;*/
-}
 
 nav {
     text-align: center;
@@ -183,7 +180,7 @@ nav a:hover {
     display: inline-flex;
     overflow:hidden;
     font-family: 'Piedra', cursive;
-/*    width: 85%;*/
+    -webkit-text-stroke: 1px black;
 }
 
 .title p {
