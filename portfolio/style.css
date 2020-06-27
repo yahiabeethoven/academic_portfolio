@@ -636,7 +636,226 @@ p {
         padding: 0;
         left: 40%;
     }
+@media screen and (max-width: 768px) {
+        nav a {
+            padding: 3%;
+            border-right: none;
+        }
 
+        h1 {
+            width: 90%;
+            font-size: 200%;
+            margin-bottom: 5px;
+/*            line-height: 0.6em;*/
+        }
+
+        .interests-container {
+        	height: 1000px;
+        }
+
+        .interests-links {
+        	margin-left: 10px;
+        	margin-right: 10px;
+        }
+  	
+		.location-image {
+			background-size: contain;
+			background-size: 100% 400px;
+			max-width: 768px;
+			height: 400px;
+		}
+		.flip-card {
+			width: 300px;
+			height: 200px;
+		}
+		.dimensions-card {
+			width: 300px;		
+			height: 200px;
+		}
+
+		.dimensions-card2 {
+			width: 90px;
+			height:90px;
+		}
+		.flip-card-inner {
+			width: 300px;
+			height: 200px;
+		}	
+		.title {
+  			height: 130px;
+  		}
+
+  		.title p{
+  			font-size: 50px;
+  		}
+
+        p {
+            padding-left: 7%;
+            padding-right: 7%;
+            font-size: 170%;
+        }
+    	#ghost-text1 {
+    		width: 75%;
+    		text-align: center;
+    	}
+    	#ghost-text2 {
+    		width: 75%;
+    		text-align: center;
+    	}
+
+    	#ghost-text3 {
+    		width: 75%;
+    		text-align: center;
+    	}
+    	#ghost-text4 {
+    		width: 75%;
+    		text-align: center;
+    	}
+
+        #projects {
+        	margin-top: 2%;
+        }
+
+        .projects-container {
+        	height:2700px;
+        	margin-right: 0;
+        }
+
+        .projects-links {
+        	width: 100%;
+        }
+
+        .projects-images {
+        	height: 538px;
+        	width: 100%;
+        }
+
+         a {
+        	font-size: 120%;
+        }
+
+        #science1 {
+        	background-size: cover;
+        }
+
+        #sound1 {
+        	background-size: cover;
+        }
+
+        #video1 {
+        	background-size: cover;
+        }
+
+        #comic1 {
+        	background-size: cover;
+        }
+        #science {
+        	margin: 5px;
+        }
+
+        #sound {
+        	margin: 5px;
+        }
+
+        #video {
+        	margin: 5px;
+        }
+
+        #comic {
+        	margin: 5px;
+        }
+
+        #science:hover {
+        	border-radius: 15px;
+        }
+
+        #sound:hover {
+        	border-radius: 15px;
+        }
+
+        #video:hover {
+        	border-radius: 15px;
+        }
+
+        #comic:hover {
+        	border-radius: 15px;
+        }
+        .navigation {
+  			width: 100%;
+  			position: absolute;
+  			position: sticky;
+  			top: 0;
+  			z-index: 999;
+		}
+
+		nav {
+			display: flex;
+  			flex-direction: row;
+  			justify-content: space-between;
+		}
+
+		body {
+			font-size:0.7em;
+		}
+
+		.vignette {
+			margin-top: 20%;
+			margin-left: 0;
+			margin-right: 0;
+			width:100%;
+		}
+
+		#sports1 {
+			height: 100px;
+		}
+
+		#sports {
+			height: 100px;
+			width: 97%;
+		}
+
+		#highschool {
+			height: 170px;
+			width: 97%;
+		}
+
+		#highschool1 {
+			height: 170px;
+		}
+
+		#food1 {
+			height: 160px;
+		}
+
+		#food {
+			height: 160px;
+			width: 97%;
+		}
+
+		#program1 {
+			height: 200px;
+		}
+
+		#program {
+			height: 200px;
+			width: 97%;
+		}
+		.footer {
+			margin-left: 0;
+			margin-right: 0;
+			width:100%;
+		}
+
+		.about {
+			padding: 0;
+			margin-bottom: 0;
+		}
+
+		.interests-images p {
+			font-size: 15px;
+		}
+
+    }
 /* Positioning here to ensure override */
     @media screen and (max-width: 650px) {
         nav a {
@@ -802,7 +1021,7 @@ p {
 
 		#sports {
 			height: 50px;
-			width: 90%;
+			width: 97%;
 		}
 
 		#highschool1 {
@@ -811,7 +1030,7 @@ p {
 
 		#highschool {
 			height: 80px;
-			width: 90%;
+			width: 97%;
 		}
 
 		#food1 {
@@ -820,7 +1039,7 @@ p {
 
 		#food {
 			height: 90px;
-			width: 90%;
+			width: 97%;
 		}
 
 		#program1 {
@@ -829,7 +1048,7 @@ p {
 
 		#program {
 			height: 100px;
-			width: 90%;
+			width: 97%;
 		}
 		.footer {
 			margin-left: 0;
